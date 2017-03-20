@@ -1,0 +1,1 @@
+docker run --name ktl-run -it --rm --network=host -w="/usr/src/ktl" -v `pwd`:/usr/src/ktl ktl perl http_request.pl test.csv
